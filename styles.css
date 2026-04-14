@@ -713,8 +713,9 @@ main > section:not(.hero)::before {
 
 .partners-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: var(--spacing-lg);
+    align-items: stretch;
 }
 
 .partner-card {
@@ -723,6 +724,12 @@ main > section:not(.hero)::before {
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-sm);
     text-align: center;
+    min-width: 0;
+}
+
+.partners-grid .habitat-logo-large {
+    max-width: min(250px, 100%) !important;
+    max-height: 150px !important;
 }
 
 .partner-card h4 {
@@ -1569,10 +1576,6 @@ textarea:focus {
     }
     
     .stories-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .partners-grid {
         grid-template-columns: 1fr;
     }
     
