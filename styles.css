@@ -635,8 +635,9 @@ main > section:not(.hero)::before {
     padding: 0;
     margin: var(--spacing-md) 0 0 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 220px));
     gap: var(--spacing-sm);
+    justify-content: center;
 }
 
 .education-links a {
@@ -661,8 +662,8 @@ main > section:not(.hero)::before {
 
 .flyer-thumbnail {
     width: 100%;
-    height: 210px;
-    object-fit: cover;
+    height: 140px;
+    object-fit: contain;
     border-radius: var(--radius-sm);
     background: var(--light-gray);
 }
