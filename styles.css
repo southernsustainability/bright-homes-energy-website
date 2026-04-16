@@ -594,6 +594,21 @@ main > section:not(.hero)::before {
     margin-bottom: var(--spacing-xl);
 }
 
+.education-photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.education-photo {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+}
+
 .education-overview h3 {
     color: var(--primary-navy);
     margin-bottom: var(--spacing-sm);
@@ -1615,6 +1630,10 @@ textarea:focus {
     }
     
     .education-modules {
+        grid-template-columns: 1fr;
+    }
+
+    .education-photo-grid {
         grid-template-columns: 1fr;
     }
     
