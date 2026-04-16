@@ -1451,6 +1451,10 @@ main > section:not(.hero)::before {
     border-radius: var(--radius-lg);
 }
 
+.community-video-container {
+    margin-bottom: var(--spacing-xl);
+}
+
 /* Footer */
 .footer {
     background: var(--primary-navy);
