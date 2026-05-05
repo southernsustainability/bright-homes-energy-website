@@ -965,6 +965,10 @@ main > section:not(.hero)::before {
     grid-column: 2;
 }
 
+.donor-item-wells-center {
+    grid-column: 2;
+}
+
 .donor-white-box-text-link {
     text-decoration: none;
     color: inherit;
@@ -1081,6 +1085,10 @@ main > section:not(.hero)::before {
     }
 
     .donor-item-covenant-center {
+        grid-column: auto;
+    }
+
+    .donor-item-wells-center {
         grid-column: auto;
     }
 
