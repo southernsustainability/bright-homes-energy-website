@@ -715,11 +715,6 @@ main > section:not(.hero)::before {
     min-width: 0;
 }
 
-.partners-grid .habitat-logo-large {
-    max-width: min(250px, 100%) !important;
-    max-height: 150px !important;
-}
-
 .partner-card h4 {
     color: var(--primary-navy);
     margin-bottom: var(--spacing-sm);
@@ -747,13 +742,6 @@ main > section:not(.hero)::before {
     width: auto;
     height: auto;
     object-fit: contain;
-}
-
-.habitat-logo-large {
-    max-width: 250px !important;
-    max-height: 250px !important;
-    width: auto;
-    height: auto;
 }
 
 /* Get Involved Section */
