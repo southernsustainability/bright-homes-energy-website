@@ -644,7 +644,8 @@ main > section:not(.hero)::before {
 }
 
 .solar-video {
-    max-width: 900px;
+    width: 100%;
+    max-width: 1120px;
     margin: var(--spacing-xl) auto 0;
 }
 
@@ -654,9 +655,11 @@ main > section:not(.hero)::before {
 }
 
 .solar-video-grid {
+    display: flex;
+    flex-wrap: nowrap;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: var(--spacing-md);
+    gap: var(--spacing-lg);
 }
 
 .video-embed {
@@ -677,6 +680,8 @@ main > section:not(.hero)::before {
 
 @media (max-width: 700px) {
     .solar-video-grid {
+        display: flex;
+        flex-direction: column;
         grid-template-columns: 1fr;
     }
 }
