@@ -320,6 +320,15 @@ main > section.featured-event::before {
     object-fit: contain;
 }
 
+.event-rain-date {
+    margin-top: 0.75rem;
+    color: #b56d00;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+
 .event-welcome-sticker {
     padding: 0.65rem 1rem;
     position: absolute;
