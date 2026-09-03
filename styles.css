@@ -1258,8 +1258,8 @@ main > section:not(.hero)::before {
 }
 
 .donor-name-center {
-    grid-column: 2;
-    grid-row: 2;
+    grid-column: auto;
+    grid-row: auto;
     align-self: center;
     justify-self: center;
     width: 200px;
@@ -1291,11 +1291,11 @@ main > section:not(.hero)::before {
 }
 
 .donor-item-covenant-center {
-    grid-column: 2;
+    grid-column: auto;
 }
 
 .donor-item-wells-center {
-    grid-column: 2;
+    grid-column: auto;
 }
 
 .donor-white-box-text-link {
@@ -1403,14 +1403,7 @@ main > section:not(.hero)::before {
     }
 
     .donor-logos > .donor-name-center {
-        order: 5;
-        grid-column: 1 / -1;
-        width: auto;
-        max-width: 280px;
-        min-height: 100px;
-        height: auto;
-        max-height: none;
-        justify-self: center;
+        grid-column: auto;
     }
 
     .donor-item-covenant-center {
@@ -1437,38 +1430,6 @@ main > section:not(.hero)::before {
     .donor-white-box-stacked .donor-white-box-text {
         -webkit-line-clamp: 5;
         font-size: 0.62rem;
-    }
-
-    .donor-logos > .donor-item:nth-child(2) {
-        order: 1;
-    }
-
-    .donor-logos > .donor-item:nth-child(3) {
-        order: 2;
-    }
-
-    .donor-logos > .donor-item:nth-child(4) {
-        order: 3;
-    }
-
-    .donor-logos > .donor-item:nth-child(5) {
-        order: 4;
-    }
-
-    .donor-logos > .donor-item:nth-child(6) {
-        order: 6;
-    }
-
-    .donor-logos > .donor-item:nth-child(7) {
-        order: 7;
-    }
-
-    .donor-logos > .donor-item:nth-child(8) {
-        order: 8;
-    }
-
-    .donor-logos > .donor-item:nth-child(9) {
-        order: 9;
     }
 
     .partners-grid {
