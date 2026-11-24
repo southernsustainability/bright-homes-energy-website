@@ -2249,3 +2249,46 @@ textarea:focus {
         text-align: center;
     }
 }
+
+/* Frame the original logo artwork, excluding its large white margins. */
+.classic-city-logo-frame {
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    max-width: 100%;
+    aspect-ratio: 1150 / 325;
+    overflow: hidden;
+    flex-shrink: 1;
+    vertical-align: middle;
+}
+
+.classic-city-logo-frame .classic-city-logo {
+    position: absolute;
+    width: 163.043478%;
+    max-width: none;
+    height: auto;
+    max-height: none;
+    left: -57.826087%;
+    top: -113.846154%;
+}
+
+/* Give the Classic City supporter artwork more room within its card. */
+.classic-city-supporter {
+    padding: 6px;
+}
+
+.classic-city-supporter .classic-city-logo-frame {
+    width: 188px;
+}
+
+/* Match the Rotary wordmark and wheel scale across the two club logos. */
+.donor-logo.athens-rotary-supporter-logo {
+    width: 124px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Enlarge the Rotary artwork in the Strategic Partners card. */
+.partner-logo-link .classic-city-logo-frame {
+    width: 250px;
+}
